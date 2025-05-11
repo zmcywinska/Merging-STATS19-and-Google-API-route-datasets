@@ -1,5 +1,5 @@
 # Merging-STATS19-and-Google-API-route-datasets
-  This repository contains code for merging the previously merged UK Stats19 dataset with Google API route shapefiles. Python was used to automate each step in the data processing integration in QGIS, allowing for large datasets to be processed efficiently and quickly. Below is a list stating in what order do the codes need to be ran, along with a short description of each step.
+  This repository contains code for merging the UK Stats19 dataset with Google API route shapefiles, which was performed as a part of the PHY346 School Safety Project. Python was used to automate each step in the data processing integration in QGIS, allowing for large datasets to be processed efficiently and quickly. Below is a list stating in what order do the codes need to be ran, along with a short description of each step.
   
   1. Opening routes.py - The original route folders contain files with different file extensions. This code loops through the folder and opens all the .shp files in QGIS
   
